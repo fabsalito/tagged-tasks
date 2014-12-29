@@ -1,0 +1,22 @@
+services:
+    app.menu_builder:
+        class: AppBundle\Menu\MenuBuilder
+        arguments: ["@knp_menu.factory"]
+
+    app.menu.superior:
+        class: Knp\Menu\MenuItem # the service definition requires setting the class
+        factory_service: app.menu_builder
+        factory_method: superiorMenu
+        arguments: ["@request"]
+        scope: request # needed as we have the request as a dependency here
+        tags:
+            - { name: knp_menu.menu, alias: superior } # The alias is what is used to retrieve the menu
+
+    app.menu.app:
+        class: Knp\Menu\MenuItem # the service definition requires setting the class
+        factory_service: app.menu_builder
+        factory_method: appMenu
+        arguments: ["@request"]
+        scope: request # needed as we have the request as a dependency here
+        tags:
+            - { name: knp_menu.menu, alias: app } # The alias is what is used to retrieve the menu
