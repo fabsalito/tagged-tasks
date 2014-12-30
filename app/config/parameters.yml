@@ -11,4 +11,4 @@ parameters:
     mailer_user: null
     mailer_password: null
     locale: en
-    secret: 20140610200802161986062119811015
+    secret: '20140610200802161986062119811015'

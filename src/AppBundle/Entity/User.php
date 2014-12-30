@@ -41,6 +41,11 @@ class User implements AdvancedUserInterface, \Serializable
     protected $email;
 
     /**
+     * @ORM\Column(name="create_date", type="datetime")
+     */
+    protected $createDate;
+
+    /**
      * @ORM\Column(name="is_active", type="boolean")
      */
     private $isActive;
@@ -51,11 +56,25 @@ class User implements AdvancedUserInterface, \Serializable
      */
     private $roles;
 
+    /**
+     * @ORM\OneToMany(targetEntity="Task", mappedBy="user")
+     *
+     */
+    private $tasks;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Tag", mappedBy="user")
+     *
+     */
+    private $tags;
+
     public function __construct()
     {
         $this->isActive = true;
+        $this->createDate = \Datetime("now");
 
         $this->roles = new ArrayCollection();
+        $this->tasks = new ArrayCollection();
         // may not be needed, see section on salt below
         // $this->salt = md5(uniqid(null, true));
     }
@@ -255,5 +274,94 @@ class User implements AdvancedUserInterface, \Serializable
     public function removeRole(\AppBundle\Entity\Role $roles)
     {
         $this->roles->removeElement($roles);
+    }
+
+    /**
+     * Set createDate
+     *
+     * @param \DateTime $createDate
+     * @return User
+     */
+    public function setCreateDate($createDate)
+    {
+        $this->createDate = $createDate;
+
+        return $this;
+    }
+
+    /**
+     * Get createDate
+     *
+     * @return \DateTime 
+     */
+    public function getCreateDate()
+    {
+        return $this->createDate;
+    }
+
+    /**
+     * Add tasks
+     *
+     * @param \AppBundle\Entity\Task $tasks
+     * @return User
+     */
+    public function addTask(\AppBundle\Entity\Task $tasks)
+    {
+        $this->tasks[] = $tasks;
+
+        return $this;
+    }
+
+    /**
+     * Remove tasks
+     *
+     * @param \AppBundle\Entity\Task $tasks
+     */
+    public function removeTask(\AppBundle\Entity\Task $tasks)
+    {
+        $this->tasks->removeElement($tasks);
+    }
+
+    /**
+     * Get tasks
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getTasks()
+    {
+        return $this->tasks;
+    }
+
+    /**
+     * Add tags
+     *
+     * @param \AppBundle\Entity\Tag $tags
+     * @return User
+     */
+    public function addTag(\AppBundle\Entity\Tag $tags)
+    {
+        $this->tags[] = $tags;
+
+        return $this;
+    }
+
+    /**
+     * Remove tags
+     *
+     * @param \AppBundle\Entity\Tag $tags
+     */
+    public function removeTag(\AppBundle\Entity\Tag $tags)
+    {
+        $this->tags->removeElement($tags);
+    }
+
+    /**
+     * Get tags
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getTags()
+    {
+        return $this->tags;
     }
 }

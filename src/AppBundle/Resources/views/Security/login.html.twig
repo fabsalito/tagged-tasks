@@ -6,10 +6,10 @@
         
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        {#{% if error %}#}
-            {#<div class="alert alert-danger" role="alert">{{ error.message }}</div>#}
-            {% include 'BraincraftedBootstrapBundle::flash.html.twig' %}
-        {#{% endif %}#}
+        {% if error %}
+            <div class="alert alert-danger" role="alert">{{ error.message }}</div>
+            {#{% include 'BraincraftedBootstrapBundle::flash.html.twig' %}#}
+        {% endif %}
 
         <form action="{{ path('login_check') }}" method="post" role="form">
             <div class="form-group">
