@@ -62,7 +62,7 @@ class Task
     public function __construct()
     {
         $this->isActive = true;
-        $this->createDate = \Datetime("now");
+        $this->createDate = new \Datetime("now");
 
         $this->tags = new ArrayCollection();
         // may not be needed, see section on salt below

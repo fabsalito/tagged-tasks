@@ -44,6 +44,9 @@ security:
                 login_path: login
                 check_path: login_check
                 csrf_provider: form.csrf_provider
+            logout:
+                path:   /logout
+                target: /
 
     # with these settings you can restrict or allow access for different parts
     # of your application based on roles, ip, host or methods

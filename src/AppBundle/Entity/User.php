@@ -71,7 +71,7 @@ class User implements AdvancedUserInterface, \Serializable
     public function __construct()
     {
         $this->isActive = true;
-        $this->createDate = \Datetime("now");
+        $this->createDate = new \Datetime("now");
 
         $this->roles = new ArrayCollection();
         $this->tasks = new ArrayCollection();

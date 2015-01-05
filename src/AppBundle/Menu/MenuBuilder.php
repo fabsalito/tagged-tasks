@@ -5,6 +5,7 @@ namespace AppBundle\Menu;
 
 use Knp\Menu\FactoryInterface;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Security\Core\SecurityContext;
 
 class MenuBuilder
 {
@@ -18,12 +19,39 @@ class MenuBuilder
         $this->factory = $factory;
     }
 
-    public function superiorMenu(Request $request)
+    public function superiorMenu(Request $request, SecurityContext $securityContext)
     {
+        $user = $securityContext->getToken()->getUser();
+
+        if (is_object($user)){
+            $username = $user->getUsername();
+        }
+
         $menu = $this->factory->createItem('root');
-    
+        //$menu->setChildrenAttribute('class', 'nav pull-right');
+
+        // add atsk menu
+        $menu->addChild('add_task', array('route' => 'homepage', 
+                                          //'label' => '<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>',
+                                          //'extras' => array('safe_label' => true)));
+                                          'label' => 'Add task'))
+            ->setCurrent(false);
+                                          
+
         // account menu and submenus
-        $menu->addChild('account', array('label' => 'Hi '. $request->get('username', 'anonymous')))
+        $menu->addChild('account', array('label' => 'Hi '. (is_object($user) ? $username : 'visitor')))
+        //$menu->addChild('account')
+        //    ->setUri('#')
+        //    ->setAttribute('class', 'dropdown')
+        //    ->setLabel('Hi '. $request->get('username', 'visitor') . ' <span class="caret"></span>')
+        //    ->setExtra('safe_label', true)
+        //    //->setLabelAttribute('class', 'caret')
+        //    ->setLinkAttributes(array('class'=>'dropdown-toggle', 
+        //                              'data-toggle'=>'dropdown', 
+        //                              'role'=>'button', 
+        //                              'aria-expanded'=>'false'))
+        //    ->setChildrenAttribute('class', 'dropdown-menu')
+        //    ->setChildrenAttribute('role', 'menu')
             ->setAttribute('dropdown', true)
             ->setCurrent(false);
 
@@ -33,64 +61,16 @@ class MenuBuilder
             ->setCurrent(false);
         $menu['account']->addChild('', array())     // define a horizontal divider
             ->setAttribute('class', 'divider');
-        $menu['account']->addChild('Sign in', array('route' => 'homepage'))
-            ->setCurrent(false);
+        if (is_object($user)){
+            $menu['account']->addChild('Sign out', array('route' => 'logout'))
+                ->setCurrent(false);
+        }
+        else {
+            $menu['account']->addChild('Sign in', array('route' => 'login'))
+                ->setCurrent(false);   
+        }
         
         return $menu;
     }
 
-    public function appMenu(Request $request)
-    {
-        $menu = $this->factory->createItem('root');
-    
-        // dashboard
-        $menu->addChild('Dashboard', array('route' => 'homepage'));
-
-        // catalogues menu and submenus
-        $menu->addChild('Catalogues', array('route' => 'homepage'))
-            ->setAttribute('dropdown', true)
-            ->setCurrent(false);
-        
-        $menu['Catalogues']->addChild('Categories', array('route' => 'homepage'))
-            ->setCurrent(false);
-        $menu['Catalogues']->addChild('Accounts', array('route' => 'homepage'))
-            ->setCurrent(false);
-        $menu['Catalogues']->addChild('Prices', array('route' => 'homepage'))
-            ->setCurrent(false);
-        $menu['Catalogues']->addChild('Members', array('route' => 'homepage'))
-            ->setCurrent(false);
-        $menu['Catalogues']->addChild('Templates', array('route' => 'homepage'))
-            ->setCurrent(false);
-
-        // finances menu and submenus
-        $menu->addChild('Finances', array('route' => 'homepage'))
-            ->setAttribute('dropdown', true)
-            ->setCurrent(false);
-
-        // plan menu
-        $menu['Finances']->addChild('Plans', array('route' => 'homepage'))
-            ->setCurrent(false);
-
-        // transactions menu
-        $menu['Finances']->addChild('Transactions', array('route' => 'homepage'))
-            ->setCurrent(false);
-
-        // controls menu
-        $menu['Finances']->addChild('Controls', array('route' => 'homepage'))
-            ->setCurrent(false);
-
-        // tools menu and submenus
-        $menu->addChild('Tools', array('route' => 'homepage'))
-            ->setAttribute('dropdown', true)
-            ->setCurrent(false);
-
-        $menu['Tools']->addChild('Scheduler', array('route' => 'homepage'))
-            ->setCurrent(false);
-        $menu['Tools']->addChild('Simulator', array('route' => 'homepage'))
-            ->setCurrent(false);
-        $menu['Tools']->addChild('Analyzer', array('route' => 'homepage'))
-            ->setCurrent(false);
-        
-        return $menu;
-    }
 }

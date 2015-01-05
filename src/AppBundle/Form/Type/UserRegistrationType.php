@@ -4,7 +4,6 @@ namespace AppBundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
-use AppBundle\EventListener\CreateUserSubscriber;
 
 class UserRegistrationType extends AbstractType
 {
@@ -16,7 +15,6 @@ class UserRegistrationType extends AbstractType
             'checkbox',
             array('property_path' => 'termsAccepted')
         );
-        $builder->addEventSubscriber(new CreateUserSubscriber());
         $builder->add('Register', 'submit');
     }
 

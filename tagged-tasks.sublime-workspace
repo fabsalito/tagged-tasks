@@ -1,0 +1,295 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"drop",
+				"dropdown"
+			],
+			[
+				"fami",
+				"familyDb"
+			],
+			[
+				"setA",
+				"setAttribute"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"xdebug",
+				"Preferences: Xdebug Settings – Default"
+			],
+			[
+				"xdebu",
+				"Preferences: Xdebug Settings – User"
+			],
+			[
+				"xdeb",
+				"Preferences: Xdebug Settings – User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3-col-3",
+				"Snippet: bs3-col-3"
+			],
+			[
+				"bs3-col-6",
+				"Snippet: bs3-col-6"
+			],
+			[
+				"bs3-col",
+				"Snippet: bs3-col-3"
+			],
+			[
+				"twi",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/fabsalito/Projects/tagged-tasks"
+	],
+	"file_history":
+	[
+		"/home/fabsalito/Projects/tagged-tasks/composer.json",
+		"/home/fabsalito/Projects/tagged-tasks/tagget-tasks.sublime-project",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Role.php",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/config.yml",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Tag.php",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/routing.yml",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/UserRegistrationType.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Model/UserRegistration.php",
+		"/home/fabsalito/Projects/tagged-tasks/app/Resources/views/base.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Security/login.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/User.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Task.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Account/register.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/security.yml",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/services.yml",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/UserType.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/config/services.yml",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/UserRepository.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Controller/AccountController.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Controller/SecurityController.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Menu/MenuBuilder.php",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/parameters.yml",
+		"/home/fabsalito/Projects/tagged-tasks/app/AppKernel.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Controller/AccountController.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Form/Type/UserType.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Entity/Family.php",
+		"/home/fabsalito/Projects/famyly-apps/app/bootstrap.php.cache",
+		"/home/fabsalito/Projects/famyly-apps/vendor/symfony/symfony/src/Symfony/Component/Form/Util/OrderedHashMapIterator.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Form/Type/FamilyRegistrationType.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Form/Model/UserRegistration.php",
+		"/home/fabsalito/Projects/famyly-apps/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/CodeExtension.php",
+		"/home/fabsalito/Projects/famyly-apps/app/cache/dev/twig/42/e4/91ab06a95e7789a05076b495da0d6ce485cedebd6dc966203d36b4eed3b8.php",
+		"/home/fabsalito/Projects/famyly-apps/app/cache/dev/classes.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Controller/SecurityController.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Resources/views/Security/login.html.twig",
+		"/home/fabsalito/Projects/famyly-apps/app/config/security.yml",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Form/Model/FamilyRegistration.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Form/Type/FamilyJoinType.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Form/Type/FamilyType.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Entity/User.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Form/Type/UserRegistrationType.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Entity/Role.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Entity/UserRepository.php",
+		"/home/fabsalito/Projects/famyly-apps/famyly-apps.sublime-project",
+		"/home/fabsalito/.config/sublime-text-3/Packages/User/Xdebug.log",
+		"/home/fabsalito/.config/sublime-text-3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/home/fabsalito/.config/sublime-text-3/Packages/User/Xdebug.sublime-settings",
+		"/home/fabsalito/.config/sublime-text-3/Packages/User/Xdebug.breakpoints",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Resources/config/routing.yml",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Resources/views/Account/register.html.twig",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Controller/DefaultController.php",
+		"/home/fabsalito/Projects/famyly-apps/doc/notes.txt",
+		"/home/fabsalito/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/fabsalito/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Controller/FamilyController.php",
+		"/home/fabsalito/Projects/famyly-apps/app/config/config.yml",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Form/Type/RegistrationType.php",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Form/Model/Registration.php",
+		"/home/fabsalito/Projects/famyly-apps/app/Resources/views/base.html.twig",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Menu/MenuBuilder.php",
+		"/home/fabsalito/Projects/famyly-apps/app/config/parameters.yml",
+		"/home/fabsalito/Projects/famyly-apps/app/config/routing.yml",
+		"/home/fabsalito/Projects/famyly-apps/composer.json",
+		"/home/fabsalito/Projects/famyly-apps/app/AppKernel.php",
+		"/home/fabsalito/Projects/famyly-apps/vendor/braincrafted/bootstrap-bundle/Braincrafted/Bundle/BootstrapBundle/Resources/views/Menu/bootstrap.html.twig",
+		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Resources/config/services.yml",
+		"/home/fabsalito/Projects/famyly-apps/app/Resources/views/menu/knp_menu.html.twig",
+		"/home/fabsalito/Projects/tecnoap-web-site/app/config/services.yml",
+		"/home/fabsalito/Projects/tecnoap-web-site/app/Resources/views/menu/knp_menu.html.twig",
+		"/home/fabsalito/Projects/tecnoap-web-site/composer.json"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"active"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 112.0
+	},
+	"project": "tagged-tasks.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
