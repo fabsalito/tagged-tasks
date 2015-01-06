@@ -4,7 +4,6 @@ namespace AppBundle\Form\Model;
 
 use Symfony\Component\Validator\Constraints as Assert;
 use AppBundle\Entity\User;
-use AppBundle\Entity\Family;
 
 class UserRegistration
 {

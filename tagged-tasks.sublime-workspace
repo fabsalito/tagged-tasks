@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Resou",
+				"Resources"
+			],
+			[
 				"drop",
 				"dropdown"
 			],
@@ -19,6 +23,106 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/AppBundle/Menu/MenuBuilder.php",
+			"settings":
+			{
+				"buffer_size": 2817,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Resources/config/services.yml",
+			"settings":
+			{
+				"buffer_size": 948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Entity/UserRepository.php",
+			"settings":
+			{
+				"buffer_size": 2145,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Entity/Role.php",
+			"settings":
+			{
+				"buffer_size": 2204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/security.yml",
+			"settings":
+			{
+				"buffer_size": 2224,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/routing.yml",
+			"settings":
+			{
+				"buffer_size": 136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/views/base.html.twig",
+			"settings":
+			{
+				"buffer_size": 2462,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "|+| \"is_object($request)\"\n",
+			"settings":
+			{
+				"buffer_size": 26,
+				"line_ending": "Unix",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> /home/fabsalito/Projects/tagged-tasks/src/AppBundle/Menu/MenuBuilder.php\n    |+| 24\n",
+			"settings":
+			{
+				"buffer_size": 87,
+				"line_ending": "Unix",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -26,6 +130,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
 			[
 				"php",
 				"Set Syntax: PHP"
@@ -96,29 +204,51 @@
 	},
 	"expanded_folders":
 	[
-		"/home/fabsalito/Projects/tagged-tasks"
+		"/home/fabsalito/Projects/tagged-tasks",
+		"/home/fabsalito/Projects/tagged-tasks/app",
+		"/home/fabsalito/Projects/tagged-tasks/app/Resources",
+		"/home/fabsalito/Projects/tagged-tasks/app/Resources/views",
+		"/home/fabsalito/Projects/tagged-tasks/app/config",
+		"/home/fabsalito/Projects/tagged-tasks/src",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Controller",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Model",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Menu",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/config",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Account",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Security",
+		"/home/fabsalito/Projects/tagged-tasks/web",
+		"/home/fabsalito/Projects/tagged-tasks/web/css"
 	],
 	"file_history":
 	[
+		"/home/fabsalito/Projects/tagged-tasks/tagged-tasks.sublime-project",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Security/login.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Account/register.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/app/Resources/views/base.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/layout.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/css/site.css",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/config.yml",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/UserRegistrationType.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Controller/AccountController.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/UserType.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/User.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Role.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Tag.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Task.php",
 		"/home/fabsalito/Projects/tagged-tasks/composer.json",
 		"/home/fabsalito/Projects/tagged-tasks/tagget-tasks.sublime-project",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Role.php",
-		"/home/fabsalito/Projects/tagged-tasks/app/config/config.yml",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Tag.php",
 		"/home/fabsalito/Projects/tagged-tasks/app/config/routing.yml",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/UserRegistrationType.php",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Model/UserRegistration.php",
-		"/home/fabsalito/Projects/tagged-tasks/app/Resources/views/base.html.twig",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Security/login.html.twig",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/User.php",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Task.php",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Account/register.html.twig",
 		"/home/fabsalito/Projects/tagged-tasks/app/config/security.yml",
 		"/home/fabsalito/Projects/tagged-tasks/app/config/services.yml",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/UserType.php",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/config/services.yml",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/UserRepository.php",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Controller/AccountController.php",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Controller/SecurityController.php",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Menu/MenuBuilder.php",
 		"/home/fabsalito/Projects/tagged-tasks/app/config/parameters.yml",
@@ -205,8 +335,343 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/AppBundle/Menu/MenuBuilder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1347,
+								1347
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/AppBundle/Resources/config/services.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/AppBundle/Entity/UserRepository.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1228,
+								1228
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 274.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/AppBundle/Entity/Role.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/config/security.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1822,
+								1822
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/config/routing.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/Resources/views/base.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1201,
+								1201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -225,18 +690,32 @@
 			[
 				0,
 				0,
-				1,
+				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.7,
 			1.0
 		]
 	},
@@ -282,9 +761,68 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"16":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"17":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"19":
+				{
+					"group": 0,
+					"index": 5
+				},
+				"20":
+				{
+					"group": 0,
+					"index": 1
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 263.0,

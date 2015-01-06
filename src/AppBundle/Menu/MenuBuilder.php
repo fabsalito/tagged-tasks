@@ -31,7 +31,7 @@ class MenuBuilder
         //$menu->setChildrenAttribute('class', 'nav pull-right');
 
         // add atsk menu
-        $menu->addChild('add_task', array('route' => 'homepage', 
+        $menu->addChild('add_task', array('route' => 'task_register', 
                                           //'label' => '<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>',
                                           //'extras' => array('safe_label' => true)));
                                           'label' => 'Add task'))
