@@ -24,7 +24,7 @@ class Tag
      * @ORM\Column(type="string", length=64)
      * @Assert\NotBlank()
      */
-    private $tag;
+    protected $tag;
 
     /**
      * @ORM\Column(name="create_date", type="datetime")
@@ -34,7 +34,7 @@ class Tag
     /**
      * @ORM\Column(name="is_active", type="boolean")
      */
-    private $isActive;
+    protected $isActive;
 
     /**
      * @ORM\ManyToOne(targetEntity="User", inversedBy="tags")
@@ -47,7 +47,7 @@ class Tag
      * @ORM\ManyToMany(targetEntity="Task", mappedBy="tags")
      *
      */
-    private $tasks;
+    protected $tasks;
 
     public function __construct()
     {

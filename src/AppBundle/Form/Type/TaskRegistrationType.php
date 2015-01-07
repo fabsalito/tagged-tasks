@@ -9,7 +9,11 @@ class TaskRegistrationType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('Task', new TaskType());
+        $builder->add('task', new TaskType());
+        $builder->add('tags', 'collection', array(
+            'type'         => new TagType(),
+            'allow_add'    => true,
+        ));
         $builder->add('Create', 'submit');
     }
 

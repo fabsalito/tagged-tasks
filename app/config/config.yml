@@ -58,6 +58,10 @@ assetic:
             inputs:
                 - %kernel.root_dir%/../src/AppBundle/Resources/css/site.css
             output: css/site.css
+        site_js:
+            inputs:
+                - %kernel.root_dir%/../src/AppBundle/Resources/js/form.dynamic.js
+            output: js/form.dynamic.js
     #    bootstrap_css:
     #        inputs:
     #            - %kernel.root_dir%/../vendor/twbs/bootstrap/less/bootstrap.less

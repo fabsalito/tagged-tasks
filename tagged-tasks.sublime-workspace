@@ -24,58 +24,42 @@
 	"buffers":
 	[
 		{
-			"file": "src/AppBundle/Menu/MenuBuilder.php",
+			"file": "src/AppBundle/Form/Model/TaskRegistration.php",
 			"settings":
 			{
-				"buffer_size": 2817,
+				"buffer_size": 729,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/AppBundle/Resources/config/services.yml",
+			"file": "src/AppBundle/Form/Type/TaskRegistrationType.php",
 			"settings":
 			{
-				"buffer_size": 948,
+				"buffer_size": 583,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/AppBundle/Entity/UserRepository.php",
+			"file": "src/AppBundle/Resources/views/Task/register.html.twig",
 			"settings":
 			{
-				"buffer_size": 2145,
+				"buffer_size": 1018,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/AppBundle/Entity/Role.php",
+			"file": "src/AppBundle/Form/Type/TaskType.php",
 			"settings":
 			{
-				"buffer_size": 2204,
+				"buffer_size": 792,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/config/security.yml",
+			"file": "app/config/config.yml",
 			"settings":
 			{
-				"buffer_size": 2224,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/config/routing.yml",
-			"settings":
-			{
-				"buffer_size": 136,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Resources/views/base.html.twig",
-			"settings":
-			{
-				"buffer_size": 2462,
+				"buffer_size": 5767,
 				"line_ending": "Unix"
 			}
 		},
@@ -219,38 +203,46 @@
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Menu",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/config",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/js",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Account",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Security",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Task",
 		"/home/fabsalito/Projects/tagged-tasks/web",
 		"/home/fabsalito/Projects/tagged-tasks/web/css"
 	],
 	"file_history":
 	[
-		"/home/fabsalito/Projects/tagged-tasks/tagged-tasks.sublime-project",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Security/login.html.twig",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Account/register.html.twig",
-		"/home/fabsalito/Projects/tagged-tasks/app/Resources/views/base.html.twig",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/layout.html.twig",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/css/site.css",
-		"/home/fabsalito/Projects/tagged-tasks/app/config/config.yml",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/User.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Task.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Tag.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Role.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Menu/MenuBuilder.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/TaskType.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/TagType.php",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/UserRegistrationType.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/TaskRegistrationType.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Model/UserRegistration.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Controller/TaskController.php",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Account/register.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Task/register.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/config.yml",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/layout.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/js/form.dynamic.js",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Controller/AccountController.php",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Type/UserType.php",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/User.php",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Role.php",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Tag.php",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/Task.php",
-		"/home/fabsalito/Projects/tagged-tasks/composer.json",
-		"/home/fabsalito/Projects/tagged-tasks/tagget-tasks.sublime-project",
-		"/home/fabsalito/Projects/tagged-tasks/app/config/routing.yml",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Form/Model/UserRegistration.php",
-		"/home/fabsalito/Projects/tagged-tasks/app/config/security.yml",
-		"/home/fabsalito/Projects/tagged-tasks/app/config/services.yml",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/config/services.yml",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Entity/UserRepository.php",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/security.yml",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/routing.yml",
+		"/home/fabsalito/Projects/tagged-tasks/app/Resources/views/base.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/tagged-tasks.sublime-project",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/views/Security/login.html.twig",
+		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Resources/css/site.css",
+		"/home/fabsalito/Projects/tagged-tasks/composer.json",
+		"/home/fabsalito/Projects/tagged-tasks/tagget-tasks.sublime-project",
+		"/home/fabsalito/Projects/tagged-tasks/app/config/services.yml",
 		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Controller/SecurityController.php",
-		"/home/fabsalito/Projects/tagged-tasks/src/AppBundle/Menu/MenuBuilder.php",
 		"/home/fabsalito/Projects/tagged-tasks/app/config/parameters.yml",
 		"/home/fabsalito/Projects/tagged-tasks/app/AppKernel.php",
 		"/home/fabsalito/Projects/famyly-apps/src/AppBundle/Controller/AccountController.php",
@@ -335,108 +327,46 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/AppBundle/Menu/MenuBuilder.php",
+					"file": "src/AppBundle/Form/Model/TaskRegistration.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2817,
+						"buffer_size": 729,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1347,
-								1347
+								421,
+								421
 							]
 						],
 						"settings":
 						{
-							"spell_check": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 342.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/AppBundle/Resources/config/services.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 948,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								353,
-								353
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 243.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/AppBundle/Entity/UserRepository.php",
+					"buffer": 1,
+					"file": "src/AppBundle/Form/Type/TaskRegistrationType.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2145,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1228,
-								1228
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 274.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/AppBundle/Entity/Role.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2204,
+						"buffer_size": 583,
 						"regions":
 						{
 						},
@@ -457,82 +387,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/config/security.yml",
+					"buffer": 2,
+					"file": "src/AppBundle/Resources/views/Task/register.html.twig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2224,
+						"buffer_size": 1018,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1822,
-								1822
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/config/routing.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								129,
-								129
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/Resources/views/base.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2462,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1201,
-								1201
+								488,
+								488
 							]
 						],
 						"settings":
@@ -542,10 +414,132 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/AppBundle/Form/Type/TaskType.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/config/config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1983,
+								1983
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -579,73 +573,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								26,
-								26
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 9,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
 					"semi_transient": false,
 					"settings":
 					{
@@ -669,7 +601,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

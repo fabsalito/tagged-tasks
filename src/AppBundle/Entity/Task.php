@@ -24,12 +24,12 @@ class Task
      * @ORM\Column(type="string", length=64)
      * @Assert\NotBlank()
      */
-    private $task;
+    protected $task;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $detail;
+    protected $detail;
 
     /**
      * @ORM\Column(name="due_date", type="datetime")
@@ -44,7 +44,7 @@ class Task
     /**
      * @ORM\Column(name="is_active", type="boolean")
      */
-    private $isActive;
+    protected $isActive;
 
     /**
      * @ORM\ManyToOne(targetEntity="User", inversedBy="tasks")
@@ -57,7 +57,7 @@ class Task
      * @ORM\ManyToMany(targetEntity="Tag", inversedBy="tasks")
      *
      */
-    private $tags;
+    protected $tags;
 
     public function __construct()
     {

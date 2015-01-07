@@ -26,12 +26,12 @@ class User implements AdvancedUserInterface, \Serializable
     /**
      * @ORM\Column(type="string", length=25)
      */
-    private $username;
+    protected $username;
 
     /**
      * @ORM\Column(type="string", length=64)
      */
-    private $password;
+    protected $password;
 
     /**
      * @ORM\Column(type="string", length=255)
@@ -48,25 +48,25 @@ class User implements AdvancedUserInterface, \Serializable
     /**
      * @ORM\Column(name="is_active", type="boolean")
      */
-    private $isActive;
+    protected $isActive;
 
     /**
      * @ORM\ManyToMany(targetEntity="Role", inversedBy="users")
      *
      */
-    private $roles;
+    protected $roles;
 
     /**
      * @ORM\OneToMany(targetEntity="Task", mappedBy="user")
      *
      */
-    private $tasks;
+    protected $tasks;
 
     /**
      * @ORM\OneToMany(targetEntity="Tag", mappedBy="user")
      *
      */
-    private $tags;
+    protected $tags;
 
     public function __construct()
     {

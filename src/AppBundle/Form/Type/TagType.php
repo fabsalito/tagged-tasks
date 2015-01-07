@@ -6,27 +6,22 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
-class TaskType extends AbstractType
+class TagType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('task', 'text');
-        $builder->add('detail', 'textarea');
-        $builder->add('due_date', 'date', array(
-            'input'  => 'datetime',
-            'widget' => 'choice',
-        ));
+        $builder->add('tag', 'text');
     }
 
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'AppBundle\Entity\Task'
+            'data_class' => 'AppBundle\Entity\Tag'
         ));
     }
 
     public function getName()
     {
-        return 'task';
+        return 'tag';
     }
 }
