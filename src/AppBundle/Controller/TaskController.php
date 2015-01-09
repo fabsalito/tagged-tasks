@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 use AppBundle\Form\Type\TaskRegistrationType;
-use AppBundle\Form\Model\TaskRegistration;
+use AppBundle\Entity\Task;
 
 
 class TaskController extends Controller
@@ -17,9 +17,9 @@ class TaskController extends Controller
      */
     public function taskRegisterAction()
     {
-        $registration = new TaskRegistration();
+        $task = new Task();
 
-        $form = $this->createForm(new TaskRegistrationType(), $registration, array(
+        $form = $this->createForm(new TaskRegistrationType(), $task, array(
             'action' => $this->generateUrl('task_create'),
         ));
 
@@ -36,7 +36,7 @@ class TaskController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-        $form = $this->createForm(new TaskRegistrationType(), new TaskRegistration());
+        $form = $this->createForm(new TaskRegistrationType(), new Task());
 
         $form->handleRequest($request);
 
@@ -53,6 +53,12 @@ class TaskController extends Controller
             // set user to task
             $task->setUser($user);
 
+            $tags = $task->getTags();
+
+            foreach ($tags as $tag){
+                $em->persist($tag);
+            }
+            //$em->persist($task->getTags());
             $em->persist($task);
             $em->flush();
 

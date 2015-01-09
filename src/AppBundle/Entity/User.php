@@ -75,6 +75,7 @@ class User implements AdvancedUserInterface, \Serializable
 
         $this->roles = new ArrayCollection();
         $this->tasks = new ArrayCollection();
+        $this->tags = new ArrayCollection();
         // may not be needed, see section on salt below
         // $this->salt = md5(uniqid(null, true));
     }
